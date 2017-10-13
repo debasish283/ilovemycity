@@ -10,11 +10,11 @@ function cityFn(req, res) {
     var cityTitle;
     var cityHeadline;
 
-    if (cityName === 'london') {
-        cityTitle = 'London';
+    if (cityName === 'newjersey') {
+        cityTitle = 'New Jersey';
         cityHeadline = 'The Old Smoke';
-    } else if (cityName === 'newyork') {
-        cityTitle = 'New York';
+    } else if (cityName === 'amsterdam') {
+        cityTitle = 'Amsterdam';
         cityHeadline = 'The Big Apple';
     } else if (cityName === 'paris') {
         cityTitle = 'Paris';
